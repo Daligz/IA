@@ -22,6 +22,7 @@ public class Figure implements Problem {
             }
             System.out.println(stringBuilder);
         }
+        System.out.println();
     }
 
     private int getNumber() {

@@ -14,8 +14,8 @@ public class Exam {
     public Exam() {
         final Scanner scanner = new Scanner(System.in);
         PROBLEMS = new Problem[] {
-//                new InverseNumbers(scanner),
-//                new Factorial(scanner),
+                new InverseNumbers(scanner),
+                new Factorial(scanner),
                 new Figure(scanner)
         };
     }
