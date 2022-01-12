@@ -1,5 +1,6 @@
 package me.upp.dali;
 
+import me.upp.dali.problems.Factorial;
 import me.upp.dali.problems.InverseNumbers;
 import me.upp.dali.problems.Problem;
 
@@ -12,7 +13,8 @@ public class Exam {
     public Exam() {
         final Scanner scanner = new Scanner(System.in);
         PROBLEMS = new Problem[] {
-                new InverseNumbers(scanner)
+                new InverseNumbers(scanner),
+                new Factorial(scanner)
         };
     }
 
