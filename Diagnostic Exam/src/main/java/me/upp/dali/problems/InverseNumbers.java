@@ -32,7 +32,7 @@ public class InverseNumbers implements Problem {
                 finalResult.append(first.charAt(i));
             }
         }
-        System.out.printf("Los numeros %s y %s tienen los numeros %s en la misma posicion.", first, second, finalResult);
+        System.out.printf("Los numeros %s y %s tienen los numeros %s en la misma posicion.%n", first, second, finalResult);
     }
 
     private int getSumOfDigits(final int number) {
