@@ -19,6 +19,7 @@ public class InverseNumbers implements Problem {
         System.out.printf("Ingresaste el numero %s y al invertir el orden de los digitos se convierte en %s%n", number, invertedNumber);
         System.out.printf("La suma de los digitos de %s es %s%n", number, numberSum);
         System.out.printf("La suma de los digitos de %s es %s%n", invertedNumber, invertedNumerSum);
+        System.out.printf("La suma de los valores es %s%n", Integer.sum(number, invertedNumber));
         this.printSameCharsIn(number, invertedNumber);
     }
 
